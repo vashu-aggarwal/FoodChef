@@ -15,6 +15,11 @@ class Userclass1 extends React.Component {
   async componentDidMount() {
     try {
       const response = await fetch("https://api.github.com/users/vashu-aggarwal");
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
       const json = await response.json();
       this.setState({
         userInfo: {
