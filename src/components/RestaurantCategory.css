@@ -1,0 +1,22 @@
+.Items{
+    color: #4d3403;
+    background: #f4e5d0;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(14, 1, 1, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    height: fit-content;
+}
+.Item1{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    height: fit-content;
+}
+.Items span{
+    font-size: 1.3vw;
+   
+}
